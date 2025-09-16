@@ -1,0 +1,31 @@
+{
+  "iso_threshold": -0.02522044945874624,
+  "lof_threshold": 1.5,
+  "contamination_rate": 0.4411764705882353,
+  "feature_names": [
+    "TxPackets",
+    "RxPackets",
+    "TxBytes",
+    "RxBytes",
+    "Duration",
+    "Throughput",
+    "PacketLoss",
+    "Delay",
+    "Jitter",
+    "PacketDeliveryRatio",
+    "ByteDeliveryRatio",
+    "AvgPacketSize",
+    "ThroughputEfficiency",
+    "IsWellKnownPort",
+    "IsWebPort",
+    "IsSuspiciousPort"
+  ],
+  "n_features": 16,
+  "model_version": "2.0",
+  "training_date": "2025-09-04 03:05:16",
+  "performance_metrics": {
+    "iso_f1": 0.6226415094339622,
+    "lof_f1": 0.6307692307692307,
+    "ensemble_f1": 0.54
+  }
+}
